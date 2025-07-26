@@ -36,6 +36,6 @@ modules:
       - mv lib/* /app/lib/
     sources:
       - type: archive
-        url: https://cinecred.com/dl/1.8.0/cinecred-1.8.0-linux-x86_64.tar.gz
-        sha256: eb5b4e924c0379ed8a2da3adc75910479d484d50f07cc457dc7d8bfc18ba4b05
+        url: https://cinecred.com/dl/1.8.1/cinecred-1.8.1-linux-x86_64.tar.gz
+        sha256: 0d79675613ba9582aef487f2ca8c2f7b2869080f20fb5c589b4bd31c1dfc322e
         only-arches: [x86_64]
