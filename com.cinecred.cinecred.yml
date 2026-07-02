@@ -1,6 +1,6 @@
 id: com.cinecred.cinecred
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: cinecred
 finish-args:
@@ -23,8 +23,8 @@ modules:
       - /share/man
     sources:
       - type: archive
-        url: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10051/ghostscript-10.05.1.tar.gz
-        sha256: 121861b6d29b2461dec6575c9f3cab665b810bd408d4ec02c86719fa708b0a49
+        url: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10071/ghostscript-10.07.1.tar.gz
+        sha256: 2fc74362f9be6fae1b0a65d38fdcfd4f0b518cc3b07c5581fb661eb4d2e15251
   - name: cinecred
     buildsystem: simple
     build-commands:
@@ -36,6 +36,6 @@ modules:
       - mv lib/* /app/lib/
     sources:
       - type: archive
-        url: https://cinecred.com/dl/1.8.1/cinecred-1.8.1-linux-x86_64.tar.gz
-        sha256: 0d79675613ba9582aef487f2ca8c2f7b2869080f20fb5c589b4bd31c1dfc322e
+        url: https://cinecred.com/dl/1.9.0/cinecred-1.9.0-linux-x86_64.tar.gz
+        sha256: 1e90462778a33149f06db6796ae2dfa4ba856164813dda72addb5c063307ae21
         only-arches: [x86_64]
